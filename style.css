@@ -1,9 +1,13 @@
 body {
-    background-color: plum;
+    background-color: #4d2d18;
   }
   h1 {
-    color: black;
+    color: white;
+    text-align: center;
   }
   p {
-    color: red;
+    color: white;
+    font-family: Georgia;
+    font-size: 20px;
+    text-align: center;
   }
