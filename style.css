@@ -5,9 +5,14 @@ body {
   h1 {
     color: #303030;
     text-align: center;
-    font-family: 'Museo Slab', sans-serif;
-    font-style: italic;
     font-weight: bold;
+    font-size: 80px;
+    font-family: "My Custom Font";
+    src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
+  }
+  
+  p.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma; 
   }
 
   #headshot {
@@ -28,7 +33,7 @@ body {
     bottom: 400px;
     text-align: center;
     margin-left: 650px;
-    margin-right: 50px;
+    margin-right: 80px;
   }
 /*
   .project {
