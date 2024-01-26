@@ -5,6 +5,12 @@ body {
     color: white;
     text-align: center;
   }
+
+  #headshot {
+    height: 80px;
+    width: 60px;
+  }
+
   p {
     color: white;
     font-family: Georgia;
