@@ -7,8 +7,9 @@ body {
   }
 
   #headshot {
-    height: 80px;
-    width: 60px;
+    height: 240px;
+    width: 180px;
+    align-self: center;
   }
 
   p {
