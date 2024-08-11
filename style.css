@@ -1,6 +1,8 @@
 /* Google Fonts Import Link */
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@1,900&family=Open+Sans:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Honk&family=Josefin+Sans:wght@300&family=Open+Sans:wght@350&display=swap');
+/*Font for nav bar*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Honk&family=Josefin+Sans:wght@500&family=Kode+Mono:wght@400..700&family=Open+Sans:wght@800&family=Righteous&family=Roboto+Slab:wght@100..900&display=swap');
 
 body {
 background: linear-gradient(to bottom, #ffffff 0%, #ff99ff 100%);
@@ -11,16 +13,16 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-size: 80px;
-  font-family: 'MuseoModerno', sans-serif;
+  font-family: "Righteous", sans-serif;
 }
   
 #headshot {
-  height: 480px;
-  width: 360px;
+  height: 400px;
+  width: 300px;
   display: block;
   position: relative;
   left: 200px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 14%;
 }
 
@@ -41,33 +43,40 @@ h1 {
   background-color: white;
   color: black;
   border: 2px solid black;
-  /*margin: 200px;*/
 }
 
-/*This is all styling for the navigation bar*/
+/*Styling for the navigation bar*/
 .navbar{
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
-  top: 0px;
+  top: -20px;
+  left: -20px;
   background: black;
   padding: 25px 20px;
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  z-index: 1030; /*overlap*/
 }
 
+/*Styling for words in nav bar*/
 .navbar li{
   list-style: none;
-  margin: 0 12px;
+  margin: 0 130px;
 }
 
 .navbar li a{
   position: relative;
   color: white;
-  font-size: 20px;
+  font-family: "Kode Mono", monospace;
+  font-size: 17px;
   font-weight: 500;
-  padding: 6px 0;
+  padding: 4px 0;
   text-decoration: none;
 }
+
+/*Styling for animation in nav bar*/
 .navbar li a:before{
   content: '';
   position: absolute;
