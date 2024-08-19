@@ -63,11 +63,12 @@ h1 {
 /*Styling for words in nav bar*/
 .navbar li{
   list-style: none;
-  margin: 0 130px;
+  margin: 0 20px;
+  position: relative;
 }
 
 .navbar li a{
-  position: relative;
+  position: relative; /*position of animation line*/
   color: white;
   font-family: "Kode Mono", monospace;
   font-size: 17px;
