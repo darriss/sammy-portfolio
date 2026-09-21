@@ -66,7 +66,7 @@ body {
 
 .navbar ul {
   display: flex;
-  gap: 40px;
+  gap: 100px;   /* was 100px; raise or lower to taste */
   margin: 0;
   padding: 0;
   list-style: none;
