@@ -46,6 +46,22 @@ h1 {
 }
 
 /*Styling for the navigation bar*/
+.navbar {
+  position: fixed;   /* stays put while scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1030;     /* stays above other content */
+}
+
+body {
+  padding-top: 70px; /* stops content from hiding under the nav */
+}
+
+html {
+  scroll-padding-top: 70px; /* anchor links land below the nav */
+}
 
 .navbar {
   position: fixed;
