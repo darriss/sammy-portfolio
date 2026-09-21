@@ -49,7 +49,7 @@ html { scroll-padding-top: 70px; }   /* anchor links land below the nav */
 
 body {
   margin: 0;
-  padding-top: 70px;                 /* content starts below the nav */
+  padding-top: 10px;                 /* content starts below the nav */
 }
 
 .navbar {
@@ -66,7 +66,7 @@ body {
 
 .navbar ul {
   display: flex;
-  gap: 100px;   /* was 100px; raise or lower to taste */
+  gap: 500px;   /* was 100px; raise or lower to taste */
   margin: 0;
   padding: 0;
   list-style: none;
